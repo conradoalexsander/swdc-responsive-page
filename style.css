@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('resources/fonts/Roboto-Regular.ttf') format('truetype')
+}
+
+html{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-image: url("./assets/kyle-gregory-devaras-galaxy-unsplash.jpg"); 
+    background-image: url("./assets/kyle-gregory-devaras-galaxy-unsplash.jpg"), linear-gradient(#07090B, #07090B); 
+    box-sizing: border-box
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+main {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+}
+
+header li {
+    display: inline;
+    text-align: center;
+    margin: 2rem;
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* landing-page */
+
+.intro-description{
+    display: none;
+}
+
+.scrolling-intro {
+    min-height: 20%;
+    max-height: 40%;
+    max-width: 50%;
+    margin: 0.1rem auto;
+}
+
+.learn-more-button {
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+.base-button {
+    
+	box-shadow: 3px 4px 0px 0px #1881f2;
+	background-color:#fff87a;
+	border-radius:5px;
+	border:1px solid #c2bb34;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:27px;
+	font-weight:bold;
+	padding:12px 76px;
+	text-decoration:none;
+    color: black;
+}
+.base-button:hover {
+	background-color:#e3da39;
+}
+.base-button:active {
+	position:relative;
+	top:1px;
+}
+
+/* All Info */
+
+.all-info {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.info-subtitle {
+    color: #fbff05;
+    text-shadow: 3px 2px #006eff;
+    
+}
+
+.info-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin: 3rem;;
+}
+
+.info-img {
+    max-width: 50%;
+}
+
+.info-description {
+    max-width: 50%;
+    background-color: rgba(65, 65, 65, 0.3);
+    padding: 1rem;
+    border: 1px transparent;
+    border-radius: 10px;
+}
+
+.info-description-bg-left {
+    background-image: url('assets/darth-vader-logo.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto;
+
+}
+.info-description-bg-right {
+    background-image: url('assets/trooper-logo.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto;
+}
+
+
+
+
+
