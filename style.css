@@ -8,11 +8,11 @@ i {
 }
 
 html{
-    font-family: 'Roboto Regular', sans-serif;
+    font-family: 'Staatliches', cursive;
     font-size: 20px;
     color: white;
-    background-image: url("./assets/kyle-gregory-devaras-galaxy-unsplash.jpg"); 
-    background-image: url("./assets/kyle-gregory-devaras-galaxy-unsplash.jpg"), linear-gradient(#07090B, #07090B); 
+    background-image: url("./img/kyle-gregory-devaras-galaxy-unsplash.jpg"); 
+    background-image: url("./img/kyle-gregory-devaras-galaxy-unsplash.jpg"), linear-gradient(#07090B, #07090B); 
     box-sizing: border-box
 }
 
@@ -70,7 +70,7 @@ footer {
 
     max-height: 300px;
 
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 /* landing-page */
@@ -143,9 +143,15 @@ footer {
     margin-top: 300px;
 }
 
+.info-box h1 {
+    color: #F6F51A;
+    text-shadow: 6px 8px #000000;
+}
+
 .info-subtitle {
-    color: #fbff05;
-    text-shadow: 3px 2px #006eff;
+    color: #4c96db;
+    text-decoration: underline;
+    text-decoration-color: #fcfcfc;
     
 }
 
@@ -180,6 +186,9 @@ footer {
 .info-img img {
     max-width: 60%;
     max-height: 60%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px #F6F51A; 
 }
 
 .info-description {
@@ -191,14 +200,14 @@ footer {
 }
 
 .info-description-bg-left {
-    background-image: url('assets/darth-vader-logo.svg');
+    background-image: url('./img/empire.png');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: auto;
 
 }
 .info-description-bg-right {
-    background-image: url('assets/trooper-logo.svg');
+    background-image: url('img/jedis.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: auto;
@@ -277,7 +286,7 @@ footer {
     header li {
         display: inline;
         text-align: center;
-        margin: 1rem;
+        margin: 5px;
     }
 
     .scrolling-intro {
