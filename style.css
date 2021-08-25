@@ -148,13 +148,6 @@ footer {
     text-shadow: 6px 8px #000000;
 }
 
-.info-subtitle {
-    color: #4c96db;
-    text-decoration: underline;
-    text-decoration-color: #fcfcfc;
-    
-}
-
 .info-box {
     display: inline-flex;
     align-items: center;
