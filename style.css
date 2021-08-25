@@ -16,6 +16,7 @@ html{
     box-sizing: border-box
 }
 
+
 h1 {
     font-size: 3rem;
 }
@@ -25,7 +26,7 @@ h2 {
 }
 
 main {
-    margin: 10px 10px 0 10px 10px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,15 +59,20 @@ footer {
     max-height: 300px;
 }
 
-img {
-    max-width: 60%;
+/* landing-page */
+
+#swdc-intro-logo {
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
 
-/* landing-page */
+    min-height: 150px;
+    max-height: 300px;
+
+    min-width: 200px;
+    max-width: 800px;
+}
 
 .img-container {
     display: flex;
@@ -138,6 +144,7 @@ img {
 
     max-width: 100%;
     margin-top: 20px;
+    margin-bottom: 3rem;
 }
 
 .info-box-movies {
@@ -153,6 +160,12 @@ img {
     min-width: 30%;
 
     margin-top: 20px;
+    text-align: center;
+}
+
+.info-img img {
+    max-width: 60%;
+    max-height: 60%;
 }
 
 .info-description {
@@ -234,13 +247,10 @@ img {
         margin: 0.1rem auto;
     }
 
-    #swdc-intro-logo {
-        min-height: 150px;
-        max-height: 200px;
-
-        min-width: 200px;
-        max-width: 500px;
+    .info-box {
+        margin: 1rem 1rem;
     }
+
 
     .info-description {
         min-width: 200px;
