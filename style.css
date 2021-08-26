@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto Regular';
-    src: url('resources/fonts/Roboto-Regular.ttf') format('truetype')
+    src: url('./files/resources/fonts/Roboto-Regular.ttf') format('truetype')
 }
 
 i {
@@ -12,8 +12,8 @@ html{
     font-size: 20px;
     color: white;
     background-color: #07090B;
-    background-image: url("./img/kyle-gregory-devaras-galaxy-unsplash.jpg"); 
-    background-image: url("./img/kyle-gregory-devaras-galaxy-unsplash.jpg"), linear-gradient(#07090B, #07090B); 
+    background-image: url("./files/img/kyle-gregory-devaras-galaxy-unsplash.jpg"); 
+    background-image: url("./files/img/kyle-gregory-devaras-galaxy-unsplash.jpg"), linear-gradient(#07090B, #07090B); 
     box-sizing: border-box
 }
 
@@ -209,14 +209,14 @@ footer {
 }
 
 .info-description-bg-left {
-    background-image: url('./img/jedis.png');
+    background-image: url('./files/img/jedis.png');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: auto;
 
 }
 .info-description-bg-right {
-    background-image: url('img/empire.png');
+    background-image: url('files/img/empire.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: auto;
