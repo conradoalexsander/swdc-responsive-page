@@ -94,7 +94,7 @@ body, html{
 .star-wars-intro .title-content {
   position: absolute;
   top: 100%;
-  animation: scroll 15s linear 6s infinite;
+  animation: scroll 22s linear 6s infinite;
 }
 
 .star-wars-intro .title-content > .content-header {
@@ -191,7 +191,7 @@ body, html{
 
 @keyframes scroll {
   0% { top: 100%; }
-  100% { top: 30%; }
+  100% { top: 10%; }
 }
 
 @media screen and (max-width: 720px) {

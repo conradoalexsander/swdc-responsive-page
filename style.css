@@ -148,6 +148,21 @@ footer {
     text-shadow: 6px 8px #000000;
 }
 
+.info-box p {
+    font-size: 1.5rem;
+    text-shadow: 6px 8px #000000;
+}
+
+.info-box a {
+    text-decoration: none;
+    color: #F6F51A;
+}
+
+.info-box a:hover {
+    text-decoration: none;
+    color: #ff0000;
+}
+
 .info-box {
     display: inline-flex;
     align-items: center;
@@ -193,14 +208,14 @@ footer {
 }
 
 .info-description-bg-left {
-    background-image: url('./img/empire.png');
+    background-image: url('./img/jedis.png');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: auto;
 
 }
 .info-description-bg-right {
-    background-image: url('img/jedis.png');
+    background-image: url('img/empire.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: auto;
@@ -307,6 +322,16 @@ footer {
         min-width: 200px;
         max-width: 500px;
     }
+
+    .info-description h1 {
+        font-size: 2.5rem;
+    }
+
+    .info-description p {
+        font-size: 1.5rem;
+    }
+
+
 
     .info-img{
         min-width: 200px;
