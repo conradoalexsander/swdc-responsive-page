@@ -11,6 +11,7 @@ html{
     font-family: 'Staatliches', cursive;
     font-size: 20px;
     color: white;
+    background-color: #07090B;
     background-image: url("./img/kyle-gregory-devaras-galaxy-unsplash.jpg"); 
     background-image: url("./img/kyle-gregory-devaras-galaxy-unsplash.jpg"), linear-gradient(#07090B, #07090B); 
     box-sizing: border-box
