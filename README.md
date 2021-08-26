@@ -49,7 +49,7 @@ This project is a possible solution to the [Responsive Club Challenge](https://g
 
 It focus on learning and exploring the Responsive pages concepts, through a web page of a regional club. 
 
-As a good Geek, I decided to make a ficticious Star Wars Club, using HTML and CSS.
+As a good geek, I decided to make a ficticious Star Wars Club, using HTML and CSS.
 
 
 <!-- BUILT WITH -->
