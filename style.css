@@ -227,14 +227,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 2rem;
-    height: 1080px;
-
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-wrap: wrap;
     background-color: rgba(22, 22, 22, 0.5);
-
     text-align: center;
-
 }
 
 .join-us h2 {
@@ -251,6 +248,7 @@ footer {
 
 .join-us img {
     object-fit: cover;
+    border: 0.4rem solid #fcfcfc;
     border-radius: 50%;
     height: 500px;
     width: 500px;
@@ -345,9 +343,20 @@ footer {
         max-width: 300px;
     }
 
-    .join-us img {
-        height: 100%;
-        width: 100%;
+    .join-us {
+        margin: 1rem 1rem;
+    }
+
+    .join-img {
+        min-width: 200px;
+        max-width: 400px;
+
+        height: auto;
+    }
+
+    .join-img img {
+        min-width: 200px;
+        max-width: 250px;
         border-radius: 0;
     }
     
