@@ -103,10 +103,16 @@ footer {
 }
 
 .scrolling-intro {
-    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 300px;
     max-height: 550px;
     max-width: 60%;
     margin: 0.1rem auto;
+
 }
 
 .learn-more-button {
