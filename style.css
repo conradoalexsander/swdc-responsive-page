@@ -14,7 +14,9 @@ html{
     background-color: #07090B;
     background-image: url("./files/img/kyle-gregory-devaras-galaxy-unsplash.jpg"); 
     background-image: url("./files/img/kyle-gregory-devaras-galaxy-unsplash.jpg"), linear-gradient(#07090B, #07090B); 
-    box-sizing: border-box
+    box-sizing: border-box;
+    overflow-wrap: normal;
+    hyphens: auto;
 }
 
 
@@ -201,6 +203,7 @@ footer {
 }
 
 .info-description {
+    min-width: 320px;
     max-width: 40%;
     background-color: rgba(65, 65, 65, 0.3);
     padding: 1rem;
@@ -292,8 +295,20 @@ footer {
     text-align: left;
 }
 
+@media only screen and (max-width: 800px) {
+    
+    .info-description h1 {
+        font-size: 2.5rem;
+    }
 
-@media only screen and (max-width: 500px) {
+    .info-description p {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 560px) {
     header li {
         display: inline;
         text-align: center;
@@ -325,16 +340,6 @@ footer {
         min-width: 200px;
         max-width: 500px;
     }
-
-    .info-description h1 {
-        font-size: 2.5rem;
-    }
-
-    .info-description p {
-        font-size: 1.5rem;
-    }
-
-
 
     .info-img{
         min-width: 200px;
